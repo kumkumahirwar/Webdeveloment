@@ -1,0 +1,21 @@
+#maindiv
+{
+    border: 1px solid black;
+    width: 700px;
+    height: 700px;
+    background-color: aquamarine;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.subdiv
+{
+    border:  1px solid black;
+    width: 40px;
+    height: 40px;
+    background-color: blanchedalmond;
+
+}
