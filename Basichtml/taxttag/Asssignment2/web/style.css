@@ -1,0 +1,200 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navcontainer {
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#navbar {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+#navlogo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  
+}
+
+.nav-link {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  display: flex;            
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.nav-link img {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;        
+  transition: filter 0.3s ease;
+}
+
+#buttons button {
+  margin-left: 10px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#sign {
+  background-color: white;
+  color: black;
+}
+#sign:hover {
+  background-color: #d3d3d3; 
+  color: black;              
+}
+
+#blocks {
+  background-color: black;
+  color: white;
+}
+
+
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 100px;
+  gap: 40px;
+}
+
+.intro-content h1 {
+  font-size: 3em;
+  font-weight: 700;
+  color:black;
+  margin-bottom: 20px;
+}
+
+.intro-content p
+{
+  color: grey;
+  font-size: 1.2rem;
+}
+#require-button
+{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 12px;
+}
+#email
+{
+  padding: 10px 15px;
+  width: 60%;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+.terms {
+  font-size: 0.9rem;
+  color: #666;
+  
+}
+
+
+.intro-image img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.clients {
+  text-align: center;
+  padding: 80px 0 60px 0;
+}
+
+.clients h3{
+  text-align: center;
+  color: #666666ac;
+  margin: 10vh;
+}
+
+.client-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.client-logos img {
+  height: 50px;
+  /* opacity: 0.9;
+   */
+}
+
+.skills {
+  text-align: center;
+  padding: 60px 20px 100px;
+}
+
+.skills h4 {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.skills h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.skills p {
+  color: #888;
+  font-size: 1.1rem;
+  /* max-width: 800px; */
+  /* margin: 0 auto;
+  line-height: 1.8; */
+  text-align: none;
+}
+
+
+
+
+
+/* @media (max-width: 768px) {
+  .main-content {
+    flex-direction: column-reverse; /* ✅ image below text */
+    /* text-align: center;
+    padding: 30px 5%;
+  }
+
+  .intro-content h1 {
+    font-size: 2rem;
+  }
+
+  .intro-content p {
+    font-size: 1rem;
+  }
+
+  .intro-image img {
+    max-width: 300px;
+  }
+} */

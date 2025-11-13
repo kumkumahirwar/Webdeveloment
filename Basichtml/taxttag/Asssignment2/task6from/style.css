@@ -1,0 +1,128 @@
+* {
+      box-sizing: border-box;
+}
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      width: 90%;
+      max-width: 1000px;
+      margin: 40px auto;
+      background-color: #fdfdfd;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    .image {
+      flex: 1;
+      background-color: #fff;
+    }
+
+    .image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .form-container {
+      flex: 1.2;
+      padding: 30px 40px;
+      background-color: #f9f9f9;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      border-bottom: 2px solid #c00;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 25px;
+    }
+
+    form {
+      width: 100%;
+    }
+
+    label {
+      display: inline-block;
+      width: 160px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    input[type="time"],
+    textarea {
+      width: 60%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background: #fff;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+      margin-right: 5px;
+    }
+
+    textarea {
+      height: 70px;
+      resize: none;
+    }
+
+    .checkbox-group {
+      margin-left: 160px;
+      margin-top: 5px;
+    }
+
+    .btn {
+      margin-top: 20px;
+      text-align: left;
+      padding-left: 160px;
+    }
+
+    input[type="submit"] {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 15px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      .image img {
+        height: auto;
+      }
+      .form-container {
+        padding: 20px;
+      }
+      label, input, textarea {
+        width: 100%;
+      }
+      .checkbox-group, .btn {
+        padding-left: 0;
+        margin-left: 0;
+      }
+    }

@@ -1,0 +1,39 @@
+#Dabba
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border: 1px solid black;
+    animation: movinDdabba 4s linear;
+        
+
+}
+@keyframes movinDdabba
+{
+    0%
+    {
+        top: 0px;
+        left: 0px;
+    }
+    25%
+    {
+        top: 0px;
+        left: 500px;
+    }
+    50%
+    {
+        top: 500px;
+        left: 500px;
+    }
+    75%
+    {
+        top: 500px;
+        left: 0px;
+    }
+    100%
+    {
+        top: 0px;
+        left: 0px;
+    }
+
+    }

@@ -1,0 +1,39 @@
+#mainDiv
+{
+    width: 90vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+}
+.subdiv
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+/* xs <567px
+sm >= 567px
+md >= 960px
+xl >= 1200px */
+
+@media screen and (max-width: 1200px)
+{
+    #mainDiv
+    {
+        grid-template-columns: auto auto auto auto;
+    }
+
+    
+}
+@media screen and (max-width: 1200px)
+{
+    #mainDiv
+    {
+        grid-template-columns: auto auto auto auto;
+    }
+
+    
+}
